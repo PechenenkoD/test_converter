@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+protocol ConverterPresenterProtocol {
+    func present()
+}
+
+final class ConverterPresenter {
+    weak var viewController: ConverterScreenVCProtocol?
+}
+
+extension ConverterPresenter: ConverterPresenterProtocol {
+    func present() {
+        // MARK
+    }
+}

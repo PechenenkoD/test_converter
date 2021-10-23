@@ -7,23 +7,33 @@
 
 import UIKit
 
-class ConverterScreenVC: UIViewController {
+protocol ConverterScreenVCProtocol: AnyObject {
+    func display()
+}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+final class ConverterScreenVC: UIViewController {
 
-        // Do any additional setup after loading the view.
+    private(set) var router: ConverterRouterProtocol?
+    private var interactor: ConverterInteractorProtocol?
+    
+    private func setup() {
+        let viewController = self
+        let interactor = ConverterInteractor()
+        let presenter = ConverterPresenter()
+        viewController.interactor = interactor
+        interactor.presenter = presenter
+        presenter.viewController = viewController
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setup()
     }
-    */
+    
+}
 
+extension ConverterScreenVC: ConverterScreenVCProtocol {
+    func display() {
+        // MARK
+    }
 }

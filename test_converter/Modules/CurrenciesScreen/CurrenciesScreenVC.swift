@@ -30,7 +30,6 @@ final class CurrenciesScreenVC: UIViewController {
         setup()
     }
 
-
 }
 
 extension CurrenciesScreenVC: CurrenciesScreenVCProtocol {

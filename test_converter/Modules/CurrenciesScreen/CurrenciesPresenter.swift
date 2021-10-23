@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+protocol CurrenciesPresenterProtocol {
+    func present()
+}
+
+final class CurrenciesPresenter {
+    weak var viewController: CurrenciesScreenVCProtocol?
+}
+
+extension CurrenciesPresenter: CurrenciesPresenterProtocol {
+    func present() {
+        // MARK
+    }
+}

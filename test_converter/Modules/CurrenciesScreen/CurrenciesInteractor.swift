@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+protocol CurrenciesInteractorProtocol {
+    func fetchData()
+}
+
+final class CurrenciesInteractor {
+    var presenter: CurrenciesPresenterProtocol?
+}
+
+extension CurrenciesInteractor: CurrenciesInteractorProtocol {
+    func fetchData() {
+        //MARK
+    }
+}

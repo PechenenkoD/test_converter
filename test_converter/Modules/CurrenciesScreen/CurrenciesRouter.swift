@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import UIKit
+
+protocol CurrenciesRouterProtocol {
+    func navigateToDetails()
+}
+
+final class CurrenciesRouter {
+    weak var viewController: UIViewController?
+}
+
+extension CurrenciesRouter: CurrenciesRouterProtocol {
+    func navigateToDetails() {
+        // MARK
+    }
+}

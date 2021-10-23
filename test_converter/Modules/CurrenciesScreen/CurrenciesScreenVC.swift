@@ -7,23 +7,34 @@
 
 import UIKit
 
-class CurrenciesScreenVC: UIViewController {
+protocol CurrenciesScreenVCProtocol: AnyObject {
+    func display()
+}
+
+final class CurrenciesScreenVC: UIViewController {
+    
+    private(set) var router: CurrenciesRouterProtocol?
+    private var interactor: CurrenciesInteractorProtocol?
+    
+    private func setup() {
+        let viewController = self
+        let interactor = CurrenciesInteractor()
+        let presenter = CurrenciesPresenter()
+        viewController.interactor = interactor
+        interactor.presenter = presenter
+        presenter.viewController = viewController
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setup()
     }
-    
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+}
+
+extension CurrenciesScreenVC: CurrenciesScreenVCProtocol {
+    func display() {
+        // MARK
     }
-    */
-
 }

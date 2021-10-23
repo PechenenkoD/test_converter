@@ -58,16 +58,72 @@
 		1F3484DB27220896001583E3 /* test_converter */ = {
 			isa = PBXGroup;
 			children = (
-				1F3484DC27220896001583E3 /* AppDelegate.swift */,
-				1F3484DE27220896001583E3 /* SceneDelegate.swift */,
-				1F3484E027220896001583E3 /* ViewController.swift */,
-				1F3484E227220896001583E3 /* Main.storyboard */,
-				1F3484E8272208A4001583E3 /* Assets.xcassets */,
-				1F3484EA272208A4001583E3 /* LaunchScreen.storyboard */,
+				1F9B8E7D2723EEA300AF02CE /* SupportingFiles */,
+				1F9B8E7B2723EE7200AF02CE /* Resources */,
+				1F9B8E792722F8AC00AF02CE /* Storyboards */,
+				1F9B8E772722F88A00AF02CE /* Modules */,
 				1F3484ED272208A4001583E3 /* Info.plist */,
 				1F3484E527220896001583E3 /* test_converter.xcdatamodeld */,
 			);
 			path = test_converter;
+			sourceTree = "<group>";
+		};
+		1F9B8E772722F88A00AF02CE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B8E802723F67B00AF02CE /* FirstScreen */,
+				1F9B8E812723F6AD00AF02CE /* CurrenciesScreen */,
+				1F9B8E822723F6CA00AF02CE /* ConverterScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1F9B8E792722F8AC00AF02CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1F3484E227220896001583E3 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F9B8E7B2723EE7200AF02CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F3484E8272208A4001583E3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F9B8E7D2723EEA300AF02CE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1F3484EA272208A4001583E3 /* LaunchScreen.storyboard */,
+				1F3484DC27220896001583E3 /* AppDelegate.swift */,
+				1F3484DE27220896001583E3 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1F9B8E802723F67B00AF02CE /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1F3484E027220896001583E3 /* ViewController.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		1F9B8E812723F6AD00AF02CE /* CurrenciesScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CurrenciesScreen;
+			sourceTree = "<group>";
+		};
+		1F9B8E822723F6CA00AF02CE /* ConverterScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ConverterScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

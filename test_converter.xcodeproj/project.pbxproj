@@ -22,8 +22,8 @@
 		1F9B8E952723F91C00AF02CE /* ConverterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B8E942723F91C00AF02CE /* ConverterInteractor.swift */; };
 		1F9B8E982723F92900AF02CE /* ConverterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B8E972723F92900AF02CE /* ConverterPresenter.swift */; };
 		1F9B8E9B2723F93900AF02CE /* ConverterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B8E9A2723F93900AF02CE /* ConverterRouter.swift */; };
-		1F9B8E9E2723F95C00AF02CE /* Currencies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B8E9D2723F95C00AF02CE /* Currencies.storyboard */; };
-		1F9B8EA12723F96700AF02CE /* Converter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B8EA02723F96700AF02CE /* Converter.storyboard */; };
+		1F9B8E9E2723F95C00AF02CE /* CurrenciesScreenVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B8E9D2723F95C00AF02CE /* CurrenciesScreenVC.storyboard */; };
+		1F9B8EA12723F96700AF02CE /* ConverterScreenVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B8EA02723F96700AF02CE /* ConverterScreenVC.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +44,8 @@
 		1F9B8E942723F91C00AF02CE /* ConverterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterInteractor.swift; sourceTree = "<group>"; };
 		1F9B8E972723F92900AF02CE /* ConverterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterPresenter.swift; sourceTree = "<group>"; };
 		1F9B8E9A2723F93900AF02CE /* ConverterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterRouter.swift; sourceTree = "<group>"; };
-		1F9B8E9D2723F95C00AF02CE /* Currencies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Currencies.storyboard; sourceTree = "<group>"; };
-		1F9B8EA02723F96700AF02CE /* Converter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Converter.storyboard; sourceTree = "<group>"; };
+		1F9B8E9D2723F95C00AF02CE /* CurrenciesScreenVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CurrenciesScreenVC.storyboard; sourceTree = "<group>"; };
+		1F9B8EA02723F96700AF02CE /* ConverterScreenVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConverterScreenVC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				1F3484E227220896001583E3 /* Main.storyboard */,
-				1F9B8E9D2723F95C00AF02CE /* Currencies.storyboard */,
-				1F9B8EA02723F96700AF02CE /* Converter.storyboard */,
+				1F9B8E9D2723F95C00AF02CE /* CurrenciesScreenVC.storyboard */,
+				1F9B8EA02723F96700AF02CE /* ConverterScreenVC.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -215,9 +215,9 @@
 			files = (
 				1F3484EC272208A4001583E3 /* LaunchScreen.storyboard in Resources */,
 				1F3484E9272208A4001583E3 /* Assets.xcassets in Resources */,
-				1F9B8EA12723F96700AF02CE /* Converter.storyboard in Resources */,
+				1F9B8EA12723F96700AF02CE /* ConverterScreenVC.storyboard in Resources */,
 				1F3484E427220896001583E3 /* Main.storyboard in Resources */,
-				1F9B8E9E2723F95C00AF02CE /* Currencies.storyboard in Resources */,
+				1F9B8E9E2723F95C00AF02CE /* CurrenciesScreenVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

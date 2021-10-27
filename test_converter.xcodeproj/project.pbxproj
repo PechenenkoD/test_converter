@@ -24,6 +24,7 @@
 		1F9B8E9B2723F93900AF02CE /* ConverterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B8E9A2723F93900AF02CE /* ConverterRouter.swift */; };
 		1F9B8E9E2723F95C00AF02CE /* CurrenciesScreenVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B8E9D2723F95C00AF02CE /* CurrenciesScreenVC.storyboard */; };
 		1F9B8EA12723F96700AF02CE /* ConverterScreenVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B8EA02723F96700AF02CE /* ConverterScreenVC.storyboard */; };
+		1F9B8EA7272582C800AF02CE /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B8EA6272582C800AF02CE /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		1F9B8E9A2723F93900AF02CE /* ConverterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterRouter.swift; sourceTree = "<group>"; };
 		1F9B8E9D2723F95C00AF02CE /* CurrenciesScreenVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CurrenciesScreenVC.storyboard; sourceTree = "<group>"; };
 		1F9B8EA02723F96700AF02CE /* ConverterScreenVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConverterScreenVC.storyboard; sourceTree = "<group>"; };
+		1F9B8EA6272582C800AF02CE /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		1F3484DB27220896001583E3 /* test_converter */ = {
 			isa = PBXGroup;
 			children = (
+				1F9B8EA52725826900AF02CE /* Model */,
 				1F9B8E7D2723EEA300AF02CE /* SupportingFiles */,
 				1F9B8E7B2723EE7200AF02CE /* Resources */,
 				1F9B8E792722F8AC00AF02CE /* Storyboards */,
@@ -154,6 +157,14 @@
 				1F9B8E9A2723F93900AF02CE /* ConverterRouter.swift */,
 			);
 			path = ConverterScreen;
+			sourceTree = "<group>";
+		};
+		1F9B8EA52725826900AF02CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F9B8EA6272582C800AF02CE /* Currency.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 				1F9B8E9B2723F93900AF02CE /* ConverterRouter.swift in Sources */,
 				1F3484E727220897001583E3 /* test_converter.xcdatamodeld in Sources */,
 				1F9B8E922723F8FA00AF02CE /* ConverterScreenVC.swift in Sources */,
+				1F9B8EA7272582C800AF02CE /* Currency.swift in Sources */,
 				1F9B8E8B2723F8C000AF02CE /* CurrenciesPresenter.swift in Sources */,
 				1F9B8E8F2723F8D100AF02CE /* CurrenciesRouter.swift in Sources */,
 				1F3484DF27220896001583E3 /* SceneDelegate.swift in Sources */,

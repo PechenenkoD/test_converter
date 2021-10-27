@@ -8,10 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.hideNavigationBar()
+        self.hideNavigationBar()  
     }
 
     @IBAction private func nextScreenCurrencies(_ sender: Any) {

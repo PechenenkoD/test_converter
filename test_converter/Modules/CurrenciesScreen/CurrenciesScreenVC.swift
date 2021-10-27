@@ -2,7 +2,7 @@
 //  CurrenciesScreenVC.swift
 //  test_converter
 //
-//  Created by Bazzz on 23.10.2021.
+//  Created by Pechenenko Dima on 23.10.2021.
 //
 
 import UIKit
@@ -24,9 +24,12 @@ final class CurrenciesScreenVC: UIViewController, UITableViewDelegate, UITableVi
         let viewController = self
         let interactor = CurrenciesInteractor()
         let presenter = CurrenciesPresenter()
+        let router = CurrenciesRouter()
         viewController.interactor = interactor
         interactor.presenter = presenter
         presenter.viewController = viewController
+        viewController.router = router
+        router.viewController = viewController
     }
     
     override func viewDidLoad() {

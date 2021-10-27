@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  test_converter
 //
-//  Created by Bazzz on 21.10.2021.
+//  Created by Pechenenko Dima on 21.10.2021.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  Currency.swift
 //  test_converter
 //
-//  Created by Bazzz on 24.10.2021.
+//  Created by Pechenenko Dima on 24.10.2021.
 //
 
 import Foundation

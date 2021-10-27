@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mA-uA-MKx">
-                                <rect key="frame" x="0.0" y="145" width="414" height="216"/>
+                                <rect key="frame" x="0.0" y="101" width="414" height="216"/>
                             </pickerView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="-" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dxP-iC-hTY">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="-" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dxP-iC-hTY">
                                 <rect key="frame" x="297" y="379" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="wwx-DR-cTe"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UAH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDs-Eq-yRQ">
@@ -34,17 +34,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13t-0c-nWD">
-                                <rect key="frame" x="20" y="108" width="8" height="21"/>
+                                <rect key="frame" x="20" y="64" width="8" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="-" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cJ9-je-GDt">
-                                <rect key="frame" x="297" y="101" width="97" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter amount" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cJ9-je-GDt">
+                                <rect key="frame" x="297" y="57" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="qg9-r3-s54"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8LQ-oA-V0a"/>
@@ -64,9 +64,7 @@
                             <constraint firstItem="2mA-uA-MKx" firstAttribute="top" secondItem="8LQ-oA-V0a" secondAttribute="top" constant="57" id="s0s-ml-0th"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="ww0-GM-Iov">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="w8k-Tr-4fR"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="ww0-GM-Iov"/>
                     <connections>
                         <outlet property="enterTX" destination="dxP-iC-hTY" id="Yh8-cC-8WQ"/>
                         <outlet property="labelTF" destination="13t-0c-nWD" id="Jqi-JH-W90"/>
@@ -77,24 +75,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ba4-qp-XAB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="171.42857142857142"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="cWF-l3-kDw">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1v0-6O-2oe" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5a3-fH-HQh">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="tUB-xp-VR7" kind="relationship" relationship="rootViewController" id="yYs-Jv-m5b"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hDE-7D-QpE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-23.188405797101453" y="171.42857142857142"/>
         </scene>
     </scenes>
     <resources>

@@ -31,7 +31,8 @@ final class CurrenciesScreenVC: UIViewController, UITableViewDelegate, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Currencies"
+        self.title = "Currencies"
+        self.navigationItem.setHidesBackButton(true, animated: false)
         setup()
         self.showNavigationBar()
     

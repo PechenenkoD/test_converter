@@ -41,7 +41,10 @@ final class ConverterScreenVC: UIViewController, UIPickerViewDelegate, UIPickerV
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Converter"
+        self.title = "Converter"
+        let backButton = UIBarButtonItem()
+            backButton.title = "Back"
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
         setup()
         
         pickerView.delegate = self

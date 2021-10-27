@@ -52,16 +52,16 @@
                         <constraints>
                             <constraint firstItem="13t-0c-nWD" firstAttribute="top" secondItem="8LQ-oA-V0a" secondAttribute="top" constant="20" id="4q9-Eg-4BX"/>
                             <constraint firstItem="cJ9-je-GDt" firstAttribute="top" secondItem="8LQ-oA-V0a" secondAttribute="top" constant="13" id="IRN-r7-CaQ"/>
-                            <constraint firstItem="8LQ-oA-V0a" firstAttribute="bottom" secondItem="dxP-iC-hTY" secondAttribute="bottom" constant="449" id="Mul-rF-83m"/>
                             <constraint firstItem="13t-0c-nWD" firstAttribute="leading" secondItem="8LQ-oA-V0a" secondAttribute="leading" constant="20" id="bg7-31-8Xb"/>
                             <constraint firstItem="2mA-uA-MKx" firstAttribute="leading" secondItem="8LQ-oA-V0a" secondAttribute="leading" id="c63-ui-c5L"/>
                             <constraint firstItem="8LQ-oA-V0a" firstAttribute="trailing" secondItem="cJ9-je-GDt" secondAttribute="trailing" constant="20" id="f77-Nw-SQq"/>
+                            <constraint firstItem="oDs-Eq-yRQ" firstAttribute="top" secondItem="2mA-uA-MKx" secondAttribute="bottom" constant="69" id="gpT-xl-Vmp"/>
                             <constraint firstItem="2mA-uA-MKx" firstAttribute="centerX" secondItem="AXE-rT-Zeb" secondAttribute="centerX" id="jOE-B8-e6c"/>
                             <constraint firstItem="8LQ-oA-V0a" firstAttribute="trailing" secondItem="dxP-iC-hTY" secondAttribute="trailing" constant="20" id="jRl-Hx-UaK"/>
                             <constraint firstItem="oDs-Eq-yRQ" firstAttribute="leading" secondItem="8LQ-oA-V0a" secondAttribute="leading" constant="20" id="pXd-JY-at3"/>
-                            <constraint firstItem="8LQ-oA-V0a" firstAttribute="bottom" secondItem="oDs-Eq-yRQ" secondAttribute="bottom" constant="455" id="pen-PP-mTc"/>
                             <constraint firstItem="2mA-uA-MKx" firstAttribute="trailing" secondItem="8LQ-oA-V0a" secondAttribute="trailing" id="qh9-Yv-5YJ"/>
                             <constraint firstItem="2mA-uA-MKx" firstAttribute="top" secondItem="8LQ-oA-V0a" secondAttribute="top" constant="57" id="s0s-ml-0th"/>
+                            <constraint firstItem="dxP-iC-hTY" firstAttribute="top" secondItem="2mA-uA-MKx" secondAttribute="bottom" constant="62" id="z5d-CY-Zt1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ww0-GM-Iov"/>

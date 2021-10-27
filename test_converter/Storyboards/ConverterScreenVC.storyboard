@@ -19,7 +19,7 @@
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mA-uA-MKx">
                                 <rect key="frame" x="0.0" y="101" width="414" height="216"/>
                             </pickerView>
-                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="-" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dxP-iC-hTY">
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dxP-iC-hTY">
                                 <rect key="frame" x="297" y="379" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="wwx-DR-cTe"/>

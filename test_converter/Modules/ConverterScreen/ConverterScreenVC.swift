@@ -61,7 +61,7 @@ final class ConverterScreenVC: UIViewController, UIPickerViewDelegate, UIPickerV
             enterTX.text = String(format: "%.2f", total)
         }
     }
-
+  
     func downloadJSON( completed: @escaping () -> () ) {
         let url = URL(string: "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json")
         URLSession.shared.dataTask(with: url!) { (data, response, error) in
